@@ -14,7 +14,6 @@ our model. (We take steps towards the negative gradient.)
 
 The size of the "step" is called the "step size" (or "learning rate"), and it's denoted $\eta$.
 
-
 It's important to note that gradient descent is only guaranteed to find a local minimum, but in deep learning, this is usually good enough-- especially
 when many loss functions are convex/only have one minimum. 
 
