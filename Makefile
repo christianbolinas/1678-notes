@@ -7,7 +7,7 @@ PDF_FILES = $(MD_FILES:.md=.pdf)
 all: $(PDF_FILES)
 
 %.pdf: %.md
-	pandoc $< -o $@
+	pandoc $< -o $@ 
 
 clean:
 	rm -f $(PDF_FILES)
